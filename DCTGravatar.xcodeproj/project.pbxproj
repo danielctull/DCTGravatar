@@ -37,6 +37,7 @@
 		245CD87C1324F7800018DE39 /* DCTRESTController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CD8551324F7800018DE39 /* DCTRESTController.m */; };
 		245CD87D1324F7800018DE39 /* DCTURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CD8571324F7800018DE39 /* DCTURLConnection.m */; };
 		245CD87E1324F7800018DE39 /* DCTConnectionQueue+UIKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CD85A1324F7800018DE39 /* DCTConnectionQueue+UIKitAdditions.m */; };
+		245CDA391324F8560018DE39 /* DCTGravatarConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CD99E1324F8560018DE39 /* DCTGravatarConnectionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,8 @@
 		245CD8571324F7800018DE39 /* DCTURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTURLConnection.m; sourceTree = "<group>"; };
 		245CD8591324F7800018DE39 /* DCTConnectionQueue+UIKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DCTConnectionQueue+UIKitAdditions.h"; sourceTree = "<group>"; };
 		245CD85A1324F7800018DE39 /* DCTConnectionQueue+UIKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DCTConnectionQueue+UIKitAdditions.m"; sourceTree = "<group>"; };
+		245CD99D1324F8560018DE39 /* DCTGravatarConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTGravatarConnectionController.h; sourceTree = "<group>"; };
+		245CD99E1324F8560018DE39 /* DCTGravatarConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTGravatarConnectionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 			children = (
 				245CD7B41324F7510018DE39 /* DCTFoundation */,
 				245CD8181324F7800018DE39 /* DCTConnectionController */,
+				245CD87F1324F8560018DE39 /* DCTGravatar */,
 				245CD7971324F2CD0018DE39 /* Classes */,
 				245CD7901324F2CD0018DE39 /* Frameworks */,
 				245CD78E1324F2CD0018DE39 /* Products */,
@@ -256,6 +260,15 @@
 			path = "UIKit Additions";
 			sourceTree = "<group>";
 		};
+		245CD87F1324F8560018DE39 /* DCTGravatar */ = {
+			isa = PBXGroup;
+			children = (
+				245CD99D1324F8560018DE39 /* DCTGravatarConnectionController.h */,
+				245CD99E1324F8560018DE39 /* DCTGravatarConnectionController.m */,
+			);
+			name = DCTGravatar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -343,6 +356,7 @@
 				245CD87C1324F7800018DE39 /* DCTRESTController.m in Sources */,
 				245CD87D1324F7800018DE39 /* DCTURLConnection.m in Sources */,
 				245CD87E1324F7800018DE39 /* DCTConnectionQueue+UIKitAdditions.m in Sources */,
+				245CDA391324F8560018DE39 /* DCTGravatarConnectionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
