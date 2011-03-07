@@ -47,7 +47,7 @@
 				<int key="NSvFlags">1316</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUIImageView" id="413487264">
+					<object class="IBUIImageView" id="776091689">
 						<reference key="NSNextResponder" ref="380026005"/>
 						<int key="NSvFlags">1298</int>
 						<string key="NSFrame">{{0, 91}, {320, 389}}</string>
@@ -57,13 +57,13 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
-					<object class="IBUITextField" id="211855808">
+					<object class="IBUITextField" id="406675772">
 						<reference key="NSNextResponder" ref="380026005"/>
 						<int key="NSvFlags">1314</int>
 						<string key="NSFrame">{{20, 40}, {280, 31}}</string>
 						<reference key="NSSuperview" ref="380026005"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="413487264"/>
+						<reference key="NSNextKeyView" ref="776091689"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
@@ -83,6 +83,7 @@
 						<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 						<float key="IBUIMinimumFontSize">17</float>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
+							<int key="IBUIKeyboardType">7</int>
 							<int key="IBUIReturnKeyType">1</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
@@ -92,7 +93,7 @@
 				<string key="NSFrameSize">{320, 480}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="211855808"/>
+				<reference key="NSNextKeyView" ref="406675772"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MCAwIDAAA</bytes>
@@ -127,14 +128,14 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">textField</string>
 						<reference key="source" ref="664661524"/>
-						<reference key="destination" ref="211855808"/>
+						<reference key="destination" ref="406675772"/>
 					</object>
 					<int key="connectionID">12</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="211855808"/>
+						<reference key="source" ref="406675772"/>
 						<reference key="destination" ref="664661524"/>
 					</object>
 					<int key="connectionID">13</int>
@@ -143,7 +144,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">imageView</string>
 						<reference key="source" ref="664661524"/>
-						<reference key="destination" ref="413487264"/>
+						<reference key="destination" ref="776091689"/>
 					</object>
 					<int key="connectionID">14</int>
 				</object>
@@ -162,8 +163,8 @@
 						<reference key="object" ref="380026005"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="413487264"/>
-							<reference ref="211855808"/>
+							<reference ref="776091689"/>
+							<reference ref="406675772"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -185,12 +186,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
-						<reference key="object" ref="413487264"/>
+						<reference key="object" ref="776091689"/>
 						<reference key="parent" ref="380026005"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">11</int>
-						<reference key="object" ref="211855808"/>
+						<reference key="object" ref="406675772"/>
 						<reference key="parent" ref="380026005"/>
 					</object>
 				</object>
