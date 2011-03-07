@@ -14,5 +14,7 @@
 }
 
 @property (nonatomic, retain) NSNumber *size;
-@property (nonatomic, retain) NSString *gravatarID;
+@property (nonatomic, copy) NSString *gravatarID;
+@property (nonatomic, copy) NSString *gravatarHash;
+
 @end

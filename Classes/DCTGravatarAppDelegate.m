@@ -7,20 +7,40 @@
 //
 
 #import "DCTGravatarAppDelegate.h"
+#import "DCTGravatarConnectionController.h"
 
 @implementation DCTGravatarAppDelegate
 
-@synthesize window, imageView, textField;
+@synthesize window, imageView;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	[self.window makeKeyAndVisible];
     return YES;
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+	
+	DCTGravatarConnectionController *cc = [DCTGravatarConnectionController connectionController];
+	cc.gravatarID = textField.text;
+	cc.size = [NSNumber numberWithInteger:512];
+	
+	[cc addCompletionBlock:^(NSObject *o) {
+		
+		if ([o isKindOfClass:[NSData class]])		
+			self.imageView.image = [UIImage imageWithData:(NSData *)o];
+		
+	}];
+	
+	[cc connect];
+	
+	[textField resignFirstResponder];
+	
+	return YES;	
+}
+
 - (void)dealloc {
 	[window release], window = nil;
 	[imageView release], imageView = nil;
-	[textField release], textField = nil;
     [super dealloc];
 }
 
