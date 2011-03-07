@@ -35,7 +35,6 @@
  */
 
 #import "DCTGravatarConnectionController.h"
-#import "NSString+DCTURLEncoding.h"
 #import <CommonCrypto/CommonDigest.h>
 
 @implementation DCTGravatarConnectionController
