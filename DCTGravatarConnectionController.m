@@ -45,6 +45,7 @@
 - (void)dealloc {
     [size release], size = nil;
 	[gravatarID release], gravatarID = nil;
+	[gravatarHash release], gravatarHash = nil;
     [super dealloc];
 }
 
