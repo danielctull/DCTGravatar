@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2417B4341348EED4000468CF /* DCTGravatarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2417B4331348EED4000468CF /* DCTGravatarAppDelegate.m */; };
+		2417B4371348EEE4000468CF /* DCTGravatarConnectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2417B4351348EEE4000468CF /* DCTGravatarConnectionController.h */; };
+		2417B4381348EEE4000468CF /* DCTGravatarConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2417B4361348EEE4000468CF /* DCTGravatarConnectionController.m */; };
+		2417B43A1348EEF7000468CF /* libDCTGravatar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F3234F1348EDCC00C45764 /* libDCTGravatar.a */; };
+		2417B43C1348EEFA000468CF /* libDCTConnectionController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2417B43B1348EEFA000468CF /* libDCTConnectionController.a */; };
+		2417B43E1348EEFD000468CF /* libDCTFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2417B43D1348EEFD000468CF /* libDCTFoundation.a */; };
+		244306971348EE9000C4FD46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F3235D1348EDCC00C45764 /* UIKit.framework */; };
+		244306981348EE9000C4FD46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F323521348EDCC00C45764 /* Foundation.framework */; };
+		244306991348EE9000C4FD46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F323601348EDCC00C45764 /* CoreGraphics.framework */; };
+		2443069F1348EE9100C4FD46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2443069D1348EE9100C4FD46 /* InfoPlist.strings */; };
+		244306A21348EE9100C4FD46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 244306A11348EE9100C4FD46 /* main.m */; };
+		244306A81348EE9100C4FD46 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 244306A61348EE9100C4FD46 /* MainWindow.xib */; };
 		24F323531348EDCC00C45764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F323521348EDCC00C45764 /* Foundation.framework */; };
 		24F3235E1348EDCC00C45764 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F3235D1348EDCC00C45764 /* UIKit.framework */; };
 		24F3235F1348EDCC00C45764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F323521348EDCC00C45764 /* Foundation.framework */; };
@@ -49,7 +61,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2417B4321348EED4000468CF /* DCTGravatarAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTGravatarAppDelegate.h; sourceTree = "<group>"; };
+		2417B4331348EED4000468CF /* DCTGravatarAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTGravatarAppDelegate.m; sourceTree = "<group>"; };
+		2417B4351348EEE4000468CF /* DCTGravatarConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTGravatarConnectionController.h; sourceTree = "<group>"; };
+		2417B4361348EEE4000468CF /* DCTGravatarConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTGravatarConnectionController.m; sourceTree = "<group>"; };
+		2417B43B1348EEFA000468CF /* libDCTConnectionController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDCTConnectionController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2417B43D1348EEFD000468CF /* libDCTFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDCTFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443067B1348EE0B00C4FD46 /* DCTConnectionController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTConnectionController.xcodeproj; path = DCTConnectionController/DCTConnectionController.xcodeproj; sourceTree = "<group>"; };
+		244306951348EE9000C4FD46 /* DCTGravatarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCTGravatarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2443069C1348EE9100C4FD46 /* DCTGravatarApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTGravatarApp-Info.plist"; sourceTree = "<group>"; };
+		2443069E1348EE9100C4FD46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		244306A01348EE9100C4FD46 /* DCTGravatarApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTGravatarApp-Prefix.pch"; sourceTree = "<group>"; };
+		244306A11348EE9100C4FD46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		244306A71348EE9100C4FD46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		24F3234F1348EDCC00C45764 /* libDCTGravatar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTGravatar.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F323521348EDCC00C45764 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24F323561348EDCC00C45764 /* DCTGravatar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTGravatar-Prefix.pch"; sourceTree = "<group>"; };
@@ -64,6 +88,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		244306921348EE9000C4FD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2417B43E1348EEFD000468CF /* libDCTFoundation.a in Frameworks */,
+				2417B43C1348EEFA000468CF /* libDCTConnectionController.a in Frameworks */,
+				2417B43A1348EEF7000468CF /* libDCTGravatar.a in Frameworks */,
+				244306971348EE9000C4FD46 /* UIKit.framework in Frameworks */,
+				244306981348EE9000C4FD46 /* Foundation.framework in Frameworks */,
+				244306991348EE9000C4FD46 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24F3234C1348EDCC00C45764 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,6 +123,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2417B43F1348EF10000468CF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2417B43D1348EEFD000468CF /* libDCTFoundation.a */,
+				2417B43B1348EEFA000468CF /* libDCTConnectionController.a */,
+				24F3234F1348EDCC00C45764 /* libDCTGravatar.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		2443067C1348EE0B00C4FD46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,12 +142,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2443069A1348EE9100C4FD46 /* DCTGravatarApp */ = {
+			isa = PBXGroup;
+			children = (
+				2417B4321348EED4000468CF /* DCTGravatarAppDelegate.h */,
+				2417B4331348EED4000468CF /* DCTGravatarAppDelegate.m */,
+				244306A61348EE9100C4FD46 /* MainWindow.xib */,
+				2443069B1348EE9100C4FD46 /* Supporting Files */,
+			);
+			path = DCTGravatarApp;
+			sourceTree = "<group>";
+		};
+		2443069B1348EE9100C4FD46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2443069C1348EE9100C4FD46 /* DCTGravatarApp-Info.plist */,
+				2443069D1348EE9100C4FD46 /* InfoPlist.strings */,
+				244306A01348EE9100C4FD46 /* DCTGravatarApp-Prefix.pch */,
+				244306A11348EE9100C4FD46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		24F323441348EDCC00C45764 = {
 			isa = PBXGroup;
 			children = (
 				2443067B1348EE0B00C4FD46 /* DCTConnectionController.xcodeproj */,
+				2417B4351348EEE4000468CF /* DCTGravatarConnectionController.h */,
+				2417B4361348EEE4000468CF /* DCTGravatarConnectionController.m */,
 				24F323541348EDCC00C45764 /* DCTGravatar */,
 				24F323651348EDCC00C45764 /* DCTGravatarTests */,
+				2443069A1348EE9100C4FD46 /* DCTGravatarApp */,
+				2417B43F1348EF10000468CF /* Libraries */,
 				24F323511348EDCC00C45764 /* Frameworks */,
 				24F323501348EDCC00C45764 /* Products */,
 			);
@@ -109,8 +182,8 @@
 		24F323501348EDCC00C45764 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24F3234F1348EDCC00C45764 /* libDCTGravatar.a */,
 				24F3235C1348EDCC00C45764 /* DCTGravatarTests.octest */,
+				244306951348EE9000C4FD46 /* DCTGravatarApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,12 +241,30 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2417B4371348EEE4000468CF /* DCTGravatarConnectionController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		244306941348EE9000C4FD46 /* DCTGravatarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244306A91348EE9100C4FD46 /* Build configuration list for PBXNativeTarget "DCTGravatarApp" */;
+			buildPhases = (
+				244306911348EE9000C4FD46 /* Sources */,
+				244306921348EE9000C4FD46 /* Frameworks */,
+				244306931348EE9000C4FD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCTGravatarApp;
+			productName = DCTGravatarApp;
+			productReference = 244306951348EE9000C4FD46 /* DCTGravatarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		24F3234E1348EDCC00C45764 /* DCTGravatar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24F323721348EDCC00C45764 /* Build configuration list for PBXNativeTarget "DCTGravatar" */;
@@ -239,6 +330,7 @@
 			targets = (
 				24F3234E1348EDCC00C45764 /* DCTGravatar */,
 				24F3235B1348EDCC00C45764 /* DCTGravatarTests */,
+				244306941348EE9000C4FD46 /* DCTGravatarApp */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +353,15 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		244306931348EE9000C4FD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2443069F1348EE9100C4FD46 /* InfoPlist.strings in Resources */,
+				244306A81348EE9100C4FD46 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24F323591348EDCC00C45764 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,10 +390,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		244306911348EE9000C4FD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244306A21348EE9100C4FD46 /* main.m in Sources */,
+				2417B4341348EED4000468CF /* DCTGravatarAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24F3234B1348EDCC00C45764 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2417B4381348EEE4000468CF /* DCTGravatarConnectionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +431,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2443069D1348EE9100C4FD46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2443069E1348EE9100C4FD46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		244306A61348EE9100C4FD46 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244306A71348EE9100C4FD46 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
 		24F323681348EDCC00C45764 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -331,6 +458,37 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		244306AA1348EE9100C4FD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTGravatarApp/DCTGravatarApp-Prefix.pch";
+				INFOPLIST_FILE = "DCTGravatarApp/DCTGravatarApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		244306AB1348EE9100C4FD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTGravatarApp/DCTGravatarApp-Prefix.pch";
+				INFOPLIST_FILE = "DCTGravatarApp/DCTGravatarApp-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		24F323701348EDCC00C45764 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,6 +587,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		244306A91348EE9100C4FD46 /* Build configuration list for PBXNativeTarget "DCTGravatarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244306AA1348EE9100C4FD46 /* Debug */,
+				244306AB1348EE9100C4FD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		24F323491348EDCC00C45764 /* Build configuration list for PBXProject "DCTGravatar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
