@@ -1,6 +1,0 @@
-[submodule "DCTFoundation"]
-	path = DCTFoundation
-	url = git://github.com/danielctull/DCTFoundation.git
-[submodule "DCTConnectionController"]
-	path = DCTConnectionController
-	url = git://github.com/danielctull/DCTConnectionController.git
