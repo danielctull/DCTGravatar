@@ -37,11 +37,9 @@
 #import "DCTRESTController.h"
 
 
-@interface DCTGravatarConnectionController : DCTRESTController {
+@interface DCTGravatarConnectionController : DCTRESTController
 
-}
-
-@property (nonatomic, retain) NSNumber *size;
+@property (nonatomic, strong) NSNumber *size;
 @property (nonatomic, copy) NSString *gravatarID;
 @property (nonatomic, copy) NSString *gravatarHash;
 

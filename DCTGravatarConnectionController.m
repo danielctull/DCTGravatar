@@ -41,13 +41,6 @@
 
 @synthesize size, gravatarID, gravatarHash;
 
-- (void)dealloc {
-    [size release], size = nil;
-	[gravatarID release], gravatarID = nil;
-	[gravatarHash release], gravatarHash = nil;
-    [super dealloc];
-}
-
 + (NSArray *)queryProperties {
 	return [NSArray arrayWithObject:@"size"];
 }
@@ -75,7 +68,6 @@
 		
 		self.gravatarHash = str;
 
-		[str release];
 	}
 	
 	return gravatarHash;
