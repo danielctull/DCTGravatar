@@ -42,5 +42,6 @@
 @property (nonatomic, strong) NSNumber *size;
 @property (nonatomic, copy) NSString *gravatarID;
 @property (nonatomic, copy) NSString *gravatarHash;
+@property (nonatomic, copy) NSURL *gravatarURL;
 
 @end

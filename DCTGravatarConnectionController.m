@@ -39,14 +39,18 @@
 
 @implementation DCTGravatarConnectionController
 
-@synthesize size, gravatarID, gravatarHash;
+@synthesize size, gravatarID, gravatarHash, gravatarURL;
 
 + (NSArray *)queryProperties {
 	return [NSArray arrayWithObject:@"size"];
 }
 
 - (NSString *)baseURLString {
-	return [NSString stringWithFormat:@"http://www.gravatar.com/avatar/%@", self.gravatarHash];	
+	
+	if (self.gravatarURL)
+		return [self.gravatarURL absoluteString];
+	
+	return [NSString stringWithFormat:@"http://www.gravatar.com/avatar/%@", self.gravatarHash];
 }
 
 - (NSString *)gravatarHash {
