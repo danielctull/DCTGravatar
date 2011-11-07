@@ -34,10 +34,10 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import "DCTRESTController.h"
+#import "DCTRESTConnectionController.h"
 
 
-@interface DCTGravatarConnectionController : DCTRESTController
+@interface DCTGravatarConnectionController : DCTRESTConnectionController
 
 @property (nonatomic, strong) NSNumber *size;
 @property (nonatomic, copy) NSString *gravatarID;
