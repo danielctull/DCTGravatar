@@ -1,0 +1,9 @@
+[submodule "DCTGravatar"]
+	path = DCTGravatar
+	url = file:///Users/danielctull/Dropbox/.gitbox/repos/DCTGravatar.git
+[submodule "DCTConnectionController"]
+	path = DCTConnectionController
+	url = git://github.com/danielctull/DCTConnectionController.git
+[submodule "DCTFoundation"]
+	path = DCTFoundation
+	url = git://github.com/danielctull/DCTFoundation.git
