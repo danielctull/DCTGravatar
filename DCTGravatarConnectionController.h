@@ -38,7 +38,7 @@
 #define dctgravatar_1_0     10000
 #define dctgravatar_1_0_1   10001
 #define dctgravatar_1_1     10100
-#define dctgravatar         dctgravatarconnectioncontroller_1_1
+#define dctgravatar         dctgravatar_1_1
 #endif
 
 #import "DCTRESTConnectionController.h"
