@@ -36,6 +36,12 @@
 
 #import "DCTRESTConnectionController.h"
 
+#ifndef dctgravatarconnectioncontroller
+#define dctgravatarconnectioncontroller_1_0     10000
+#define dctgravatarconnectioncontroller_1_0_1   10001
+#define dctgravatarconnectioncontroller_1_1     10100
+#define dctgravatarconnectioncontroller         dctgravatarconnectioncontroller_1_1
+#endif
 
 @interface DCTGravatarConnectionController : DCTRESTConnectionController
 
