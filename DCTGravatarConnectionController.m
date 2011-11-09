@@ -37,6 +37,12 @@
 #import "DCTGravatarConnectionController.h"
 #import <CommonCrypto/CommonDigest.h>
 
+#if !defined dctconnectioncontroller
+#warning "DCTFoundation is required to use DCTConnectionController. Download from https://github.com/danielctull/DCTConnectionController"
+#elif dctconnectioncontroller < dctconnectioncontroller_2_0_1
+#warning "DCTConnectionController 2.0.1 is required with this version of DCTGravatarConnectionController. Update at https://github.com/danielctull/DCTConnectionController"
+#endif
+
 @implementation DCTGravatarConnectionController
 
 @synthesize size, gravatarID, gravatarHash, gravatarURL;
