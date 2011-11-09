@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DCTGravatarViewController : UIViewController
+@interface DCTGravatarViewController : UIViewController <UITextFieldDelegate>
+
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
 
 @end
