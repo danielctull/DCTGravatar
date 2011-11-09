@@ -34,14 +34,20 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import "DCTRESTConnectionController.h"
-
-#ifndef dctgravatarconnectioncontroller
-#define dctgravatarconnectioncontroller_1_0     10000
-#define dctgravatarconnectioncontroller_1_0_1   10001
-#define dctgravatarconnectioncontroller_1_1     10100
-#define dctgravatarconnectioncontroller         dctgravatarconnectioncontroller_1_1
+#ifndef dctgravatar
+#define dctgravatar_1_0     10000
+#define dctgravatar_1_0_1   10001
+#define dctgravatar_1_1     10100
+#define dctgravatar         dctgravatarconnectioncontroller_1_1
 #endif
+
+#if !defined dctconnectioncontroller
+#warning "DCTConnectionController is required to use DCTGravatarConnectionController. Download from https://github.com/danielctull/DCTConnectionController"
+#elif dctconnectioncontroller < dctconnectioncontroller_2_0_1
+#warning "DCTConnectionController 2.0.1 is required with this version of DCTGravatarConnectionController. Update at https://github.com/danielctull/DCTConnectionController"
+#endif
+
+#import "DCTRESTConnectionController.h"
 
 @interface DCTGravatarConnectionController : DCTRESTConnectionController
 
