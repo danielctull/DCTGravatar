@@ -77,4 +77,9 @@
 	return gravatarHash;
 }
 
+- (void)connectionDidFinishLoading {
+	[self returnedObject]; // Forces the returned avatar data into memory and thus is passed to the completion blocks
+	[super connectionDidFinishLoading];
+}
+
 @end
